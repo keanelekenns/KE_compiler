@@ -1,0 +1,9 @@
+
+void main(){
+//trying to name identifiers with keywords doesn't work due to matching keywords before identifiers?
+
+void int;
+boolean string;
+string char;
+
+}

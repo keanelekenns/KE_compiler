@@ -1,0 +1,10 @@
+void[15] we_dont_want_this_to_work_ever(boolean['strings']){}
+
+void main(){
+    int not_array;
+    not_array = 3;
+    //Definitely don't want to allow this later on either
+    not_array[0] = 1;
+    print not_array ;
+    println we_dont_want_this_to_work_later();
+}

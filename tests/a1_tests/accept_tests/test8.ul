@@ -1,0 +1,8 @@
+
+int[100] weird_function(boolean truth, int birthday, char initial, string lastname, float IQ, float bob){
+    int[100] ret;
+    print((((("THIS IS FINE")))));;;;;;;
+    return ret;
+}void main(){
+
+return;}

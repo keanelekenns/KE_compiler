@@ -1,0 +1,10 @@
+int foo(){
+    if(y == x*2){
+        //do stuff
+        return 5;
+    } else{
+    }
+}
+
+//bool is not a type, boolean is
+bool bar(int x){return;}

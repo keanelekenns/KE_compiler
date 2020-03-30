@@ -1,0 +1,20 @@
+
+//ignore this comment!###
+int change_num(int num, float other_num){
+    int i;
+    int new_num_55;
+    i = 0;
+    new_num_55 = 0;
+    while( i < num*2 - 1){
+        //later on this should complain since other_num is a float
+        new_num_55 = new_num_55 + i*4 - other_num + (i==num);
+    }
+    return new_num_55;
+}
+void main(){
+    int not_a_function;
+    //all allowable special characters in a string
+    name = "bob!,.{}: _  ";
+    not_a_function = change_num(42,98.7);
+    print not_a_function;
+}

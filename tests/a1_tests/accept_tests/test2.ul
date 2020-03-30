@@ -1,0 +1,7 @@
+int foo(){
+    if(y == x*2){
+        //do stuff
+        return 5;
+    }
+}
+void bar(int x){return;}

@@ -1,0 +1,30 @@
+int foo(int i, float d){
+    return i;
+}
+void draw_picture(){
+
+                            print "!_!";
+                                        print "_!_";
+print " ! ";print "} {";               
+}
+
+void main()
+{
+    int a;
+    float b;
+    char c;
+    string d;
+    boolean e;
+    
+    a = 12;
+    b = 23.3;
+    c = 's';
+    d = "hello";
+    e = true;
+    a = a + 23;
+    
+    if(e){
+        return;
+    }
+    println(d);
+}

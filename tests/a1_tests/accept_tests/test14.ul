@@ -1,0 +1,52 @@
+int random_int(int seed){
+    return seed*3 +234 -seed*seed + seed*seed*seed;
+}
+
+int[3] sort(int[3] list){
+    int temp;
+    
+    if (list[1] < list[0]){
+        temp = list[1];
+        list[1] = list[0];
+        list[0] = temp;
+    }
+    if (list[2] < list[1]){
+        temp = list[2];
+        list[2] = list[1];
+        list[1] = temp;
+    }
+    if (list[1] < list[0]){
+        temp = list[1];
+        list[1] = list[0];
+        list[0] = temp;
+    }
+    return list;
+}
+
+void main()
+{
+    int i1;
+    int i2;
+    int i3;
+    int index;
+    char c1;
+    char c2;
+    float f;
+    string s1;
+    string s2;
+    boolean b;
+    int[3] int_list;
+    
+    i1 = random_int(3);
+    i2 = random_int(34);
+    i3 = random_int(2);
+    int_list[0] = i1;
+    int_list[1] = i2;
+    int_list[2] = i3;
+    int_list = sort(int_list);
+    index = 0;
+    while (index < 3)
+    {
+        println int_list[index];
+    }
+}

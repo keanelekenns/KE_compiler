@@ -1,0 +1,14 @@
+
+int factorial(int n){
+    if(n < 2){
+        return 1;
+    }
+    return n*factorial(n-1);
+}
+
+void main(){
+    int factorial;
+    factorial = fact(23);
+    print "factorial of 23 is";
+    print factorial;
+}

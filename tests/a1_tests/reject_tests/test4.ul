@@ -1,0 +1,18 @@
+int arrayMax(int[3] argArr){
+    int max;
+    if(argArr[0] < argArr[1]){
+        max = argArr[1];
+    }else{
+        max = argArr[0];
+    }
+    if(max < argArr[2]){
+        max = argArr[2];
+    }
+    return max;
+}
+
+void main(){
+    //what I wrote on the in-class exercise
+    int[3] arr = {1,7,5};
+    print arrayMax(arr);
+}

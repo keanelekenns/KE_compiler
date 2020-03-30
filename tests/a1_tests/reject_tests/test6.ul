@@ -1,0 +1,11 @@
+void main(){
+    println ("HELLO WORLD!");
+    println "Countdown:";
+    
+    //Variable Declaration after statements
+    int i;
+    i=10;
+    while(0<i){
+        println i;
+    }
+}

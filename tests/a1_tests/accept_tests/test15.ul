@@ -1,0 +1,20 @@
+int num_digits_on_rhs(float value){
+    int num;
+    //string value;
+    
+    num=0;
+    while(1.0<value){
+        num = num +1;
+        value = value*0.1;
+    }
+    return num;
+}
+
+void main(){
+    float number;
+    string[3] bob;
+    string[3] joe;
+    number = 34643.234;
+    println num_digits_on_rhs(number);
+    joe[1] + bob[2];
+}

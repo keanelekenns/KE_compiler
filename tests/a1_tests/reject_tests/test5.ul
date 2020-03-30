@@ -1,0 +1,3 @@
+void main(string name){
+    int function_inside_function(){}
+}

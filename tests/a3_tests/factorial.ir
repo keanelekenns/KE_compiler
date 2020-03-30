@@ -1,0 +1,42 @@
+PROG factorial
+FUNC factorial (I)I
+{
+    TEMP 0:I;
+    TEMP 1:I;
+    TEMP 2:I;
+    TEMP 3:Z;
+    TEMP 4:Z;
+    TEMP 5:I;
+    TEMP 6:I;
+    TEMP 7:I;
+    TEMP 8:I;
+    TEMP 9:I;
+    T2 := 1;
+    T3 := T0 I== T2;
+    T4 := Z! T3;
+    IF T4 GOTO L0;
+    T5 := 1;
+    T1 := T5;
+    GOTO L1;
+    L0:;
+    T7 := 1;
+    T8 := T0 I- T7;
+    T6 := CALL factorial(T8);
+    T9 := T0 I* T6;
+    T1 := T9;
+    L1:;
+    RETURN T1;
+}
+
+FUNC main ()V
+{
+    TEMP 0:U;
+    TEMP 1:I;
+    TEMP 2:I;
+    T0 := "The factorial of 9 is ";
+    PRINTU T0;
+    T2 := 9;
+    T1 := CALL factorial(T2);
+    PRINTLNI T1;
+    RETURN;
+}

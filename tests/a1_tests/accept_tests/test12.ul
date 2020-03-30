@@ -1,0 +1,30 @@
+void mess(){}
+
+int mess (int x, float y, string bob,     boolean hi, void hello)
+{
+    boolean bool;
+ if (x<y)
+ {if(1){}
+ if(arrayref[12] == 3*5 < 23 - 5){
+ ;; bool = true;
+ }else{x(1, 2,    4);while (false){if(randomID){arrayref = 7;}}
+ }
+ }
+ else
+ {
+ print "Goodbye";
+ }
+ return (x*y) - x-y;
+}
+
+void main ()
+{
+ string[10] a;
+ string bill;
+ string bob;
+ bob="BOB";
+ bill="BILL";
+ a[1] = bob+bill;
+
+ println mess(10,9.3, "BOB",    true,    False);
+}

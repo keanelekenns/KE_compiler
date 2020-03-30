@@ -1,0 +1,28 @@
+PROG if
+FUNC less (II)V
+{
+    TEMP 0:I;
+    TEMP 1:I;
+    TEMP 2:Z;
+    TEMP 3:Z;
+    TEMP 4:U;
+    T2 := T0 I< T1;
+    T3 := Z! T2;
+    IF T3 GOTO L0;
+    PRINTI T0;
+    T4 := " is less than ";
+    PRINTU T4;
+    L0:;
+    PRINTLNI T1;
+    RETURN;
+}
+
+FUNC main ()V
+{
+    TEMP 0:I;
+    TEMP 1:I;
+    T0 := 2;
+    T1 := 3;
+    CALL less(T0T1);
+    RETURN;
+}

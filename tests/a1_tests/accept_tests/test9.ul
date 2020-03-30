@@ -1,0 +1,13 @@
+//should not be allowed to have a void array
+void[15] we_dont_want_this_to_work_later(){
+int[15] temp;
+return temp;}
+
+void main(){
+    int not_array;
+    not_array = 3;
+    //Definitely don't want to allow this later on either
+    not_array[0] = 1;
+    print not_array ;
+    println we_dont_want_this_to_work_later();
+}

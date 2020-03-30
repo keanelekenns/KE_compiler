@@ -1,0 +1,7 @@
+
+//should complain
+int[100] weird_function(boolean true, int birthday, char initial, string lastname, float IQ, void bob){
+    //I imagine we will want this to complain later on
+    print((((("THIS IS NOT FINE"))))));
+    return; //should complain about no return expr later on
+}

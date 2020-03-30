@@ -1,0 +1,8 @@
+int foo(){
+    if(y == x*2){
+        //cannot declare and assign at same time
+        int ret = x*2;
+        return ret;
+    }
+}
+void bar(int x){return;}

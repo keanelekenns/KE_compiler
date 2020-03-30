@@ -1,0 +1,15 @@
+
+float foo(string p1, int p2, float p3, boolean p4, char p5, float[40] p6){
+    char y;
+    y = p5 + 'e' + 'r';
+    return 434.4;
+}
+
+
+void main(){
+    float[40] numbers;
+    int x;
+    x=34;
+    
+    print foo("hi",x,34.34,false, 'e', numbers)-32.4;
+}

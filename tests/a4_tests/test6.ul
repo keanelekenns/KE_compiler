@@ -1,0 +1,22 @@
+
+void main(){
+    float number;
+    float[9] nums;
+    number = 34643.234;
+    nums[0] = 3.1415;
+    
+    if(number == nums[0])
+    {
+        println("NOICE");
+    }
+    else
+    {
+        println("OOPS");
+        
+    }
+    
+    if(nums[0] == 3.1415)
+    {
+        println("NICE PIE");
+    }
+}

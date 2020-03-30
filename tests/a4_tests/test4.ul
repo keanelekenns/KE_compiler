@@ -1,0 +1,16 @@
+int num_digits_on_lhs(float value){
+    int num;
+    
+    num=0;
+    while(1.0<value){
+        num = num +1;
+        value = value*0.1;
+    }
+    return num;
+}
+
+void main(){
+    float number;
+    number = 34643.234;
+    println num_digits_on_lhs(number);
+}

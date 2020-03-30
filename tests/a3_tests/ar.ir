@@ -1,0 +1,50 @@
+PROG ar
+FUNC main ()V
+{
+    TEMP 0:AI;
+    TEMP 1:I;
+    TEMP 2:I;
+    TEMP 3:I;
+    TEMP 4:I;
+    TEMP 5:I;
+    TEMP 6:I;
+    TEMP 7:I;
+    TEMP 8:I;
+    TEMP 9:I;
+    TEMP 10:I;
+    TEMP 11:I;
+    TEMP 12:I;
+    TEMP 13:Z;
+    TEMP 14:Z;
+    TEMP 15:I;
+    TEMP 16:I;
+    TEMP 17:I;
+    T0 := NEWARRAY I 3;
+    T3 := 0;
+    T4 := 7;
+    T0[T3] := T4;
+    T5 := 1;
+    T6 := 24;
+    T0[T5] := T6;
+    T7 := 1;
+    T1 := T7;
+    T8 := 1;
+    T9 := T1 I+ T8;
+    T10 := 2;
+    T0[T9] := T10;
+    T11 := 0;
+    T2 := T11;
+    L0:;
+    T12 := 3;
+    T13 := T2 I< T12;
+    T14 := Z! T13;
+    IF T14 GOTO L1;
+    T15 := T0[T2];
+    PRINTLNI T15;
+    T16 := 1;
+    T17 := T2 I+ T16;
+    T2 := T17;
+    GOTO L0;
+    L1:;
+    RETURN;
+}

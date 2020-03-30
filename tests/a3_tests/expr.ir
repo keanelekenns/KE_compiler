@@ -1,0 +1,29 @@
+PROG expr
+FUNC main ()V
+{
+    TEMP 0:I;
+    TEMP 1:I;
+    TEMP 2:I;
+    TEMP 3:I;
+    TEMP 4:I;
+    TEMP 5:I;
+    TEMP 6:I;
+    TEMP 7:I;
+    TEMP 8:I;
+    TEMP 9:I;
+    TEMP 10:I;
+    T3 := 1;
+    T0 := T3;
+    T4 := 2;
+    T1 := T4;
+    T5 := 3;
+    T2 := T5;
+    T6 := 1;
+    T7 := T1 I+ T6;
+    T8 := T0 I* T7;
+    T9 := 7;
+    T10 := T8 I+ T9;
+    T2 := T10;
+    PRINTLNI T2;
+    RETURN;
+}
