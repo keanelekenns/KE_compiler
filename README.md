@@ -15,9 +15,11 @@ Linux - run "make" from the main directory (i.e. KE_Compiler).
 USAGE:
 
 From the main directory, run "java Compiler <filename>.ul [-pp | -ir]".
+
 This step generates <filename>.j in the location specified by the path to <filename>.ul.
 
 To generate a class file, run "java jasmin.Main [-d path-to-destination] <filename>.j.
+
 A suggested destination folder for class files generated from .ul files is the ulclasses directory.
 
 Finally, to execute the program, run "java <filename>" ensuring the classfile is in the current classpath.
@@ -33,8 +35,11 @@ DOCS:
 The following documents are all found in the docs folder (found within the main directory).
 
 "ULRefManual.pdf" - Information regarding syntax of the unnamedLanguage.
+
 "TypeCheckingRules.pdf" - Information regarding the type checking rules.
+
 "IRSpecification.pdf" - Rules and syntax regarding the Intermediate Representation.
+
 "PPFormat.pdf" - Formatting specification for the -pp option.
 
 TESTING:
@@ -43,6 +48,7 @@ Acceptance of programs by grammar:
 
 Windows -
 run "scripts\run_tests_a1.bat" from the main directory.
+
 Linux - 
 run "scripts/run_tests_a1.bash" from the main directory.
  
@@ -53,6 +59,7 @@ Detecting errors during type checking:
 
 Windows -
 run "scripts\run_tests_a2.bat" from the main directory.
+
 Linux - 
 run "scripts/run_tests_a2.bash" from the main directory.
 
@@ -61,5 +68,6 @@ Generating & executing code:
 
 Windows -
 run "scripts\run_tests_a4.bat" from the main directory.
+
 Linux - 
 run "scripts\run_tests_a4.bash" from the main directory.
